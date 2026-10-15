@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+backups/
+*.dt
+migration_report.json
+etl_report.json
