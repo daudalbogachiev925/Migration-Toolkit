@@ -1,0 +1,13 @@
+source_entity: OldCustomers
+target_entity: NewCounterparties
+mappings:
+  - source: client_id
+    target: Ref_Key
+  - source: client_name
+    target: Description
+  - source: client_inn
+    target: INN
+  - source: client_email
+    target: Email
+  - source: client_phone
+    target: Phone
