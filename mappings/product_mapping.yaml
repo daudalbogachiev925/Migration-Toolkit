@@ -1,0 +1,13 @@
+source_entity: OldProducts
+target_entity: NewNomenclature
+mappings:
+  - source: product_id
+    target: Ref_Key
+  - source: product_name
+    target: Description
+  - source: product_sku
+    target: Article
+  - source: product_price
+    target: Price
+  - source: product_unit
+    target: Unit
